@@ -32,6 +32,10 @@ public enum AceEditorMode {
 	ACTIONSCRIPT("actionscript"),
 	/** Ada. */
 	ADA("ada"),
+	/** Apache configuration. */
+	APACHE_CONF("apache_conf"),
+	/** Applescript. */
+	APPLESCRIPT("applescript"),
 	/** ASCIIDOC. */
 	ASCIIDOC("asciidoc"),
 	/** Assembly (x86). */
@@ -44,6 +48,8 @@ public enum AceEditorMode {
 	C9SEARCH("c9search"),
 	/** C/C++. */
 	C_CPP("c_cpp"),
+	/** Cirru, indentation-based grammar for languages. */
+	CIRRU("cirru"),
 	/** Clojure. */
 	CLOJURE("clojure"),
 	/** COBOL. */
@@ -66,6 +72,8 @@ public enum AceEditorMode {
 	DJANGO("django"),
 	/** D. */
 	D("d"),
+	/** Docker files. */
+	DOCKERFILE("dockerfile"),
 	/** Dot. */
 	DOT("dot"),
 	/** EJS (Embedded Javascript). */
@@ -76,6 +84,8 @@ public enum AceEditorMode {
 	FORTH("forth"),
 	/** FTL. */
 	FTL("ftl"),
+	/** Gherkin: Business Readable, Domain Specific Language. */
+	GHERKIN("gherkin"),
 	/** GLSL (OpenGL Shading Language). */
 	GLSL("glsl"),
 	/** Go (http://golang.org/). */
@@ -84,18 +94,24 @@ public enum AceEditorMode {
 	GROOVY("groovy"),
 	/** HAML. */
 	HAML("haml"),
+	/** Handlebars.js: Minimal Templating on Steroids. */
+	HANDLEBARS("handlebars"),
 	/** Haskell. */
 	HASKELL("haskell"),
 	/** Haxe. */
 	HAXE("haxe"),
 	/** HTML. */
 	HTML("html"),
+	/** HTML completions. */
+	HTML_COMPLETIONS("html_completions"),
 	/** HTML (Ruby). */
 	HTML_RUBY("html_ruby"),
 	/** Ini file. */
 	INI("ini"),
 	/** JADE. */
 	JADE("jade"),
+	/** Jack. */
+	JACK("jack"),
 	/** JAVA. */
 	JAVA("java"),
 	/** Javascript. */
@@ -136,12 +152,16 @@ public enum AceEditorMode {
 	MARKDOWN("markdown"),
 	/** Matlab. */
 	MATLAB("matlab"),
+	/** Mel. */
+	MEL("mel"),
 	/** MUSHCode (High Rules). */
 	MUSHCODE_HIGH_RULES("mushcode_high_rules"),
 	/** MUSHCode. */
 	MUSHCODE("mushcode"),
 	/** MySQL. */
 	MYSQL("mysql"),
+	/** Nix. */
+	NIX("nix"),
 	/** Objective C. */
 	OBJECTIVEC("objectivec"),
 	/** OCaml. */
@@ -154,12 +174,16 @@ public enum AceEditorMode {
 	PGSQL("pgsql"),
 	/** PHP. */
 	PHP("php"),
+	/** Plain text. */
+	PLAIN_TEXT("plain_text"),
 	/** PowerShell. */
 	POWERSHELL("powershell"),
 	/** Prolog. */
 	PROLOG("prolog"),
 	/** Java properties file. */
 	PROPERTIES("properties"),
+	/** Protocol Buffers - Google's data interchange format. */
+	PROTOBUF("protobuf"),
 	/** Python. */
 	PYTHON("python"),
 	/** RDoc (Ruby documentation). */
@@ -184,8 +208,16 @@ public enum AceEditorMode {
 	SCSS("scss"),
 	/** Sh (Bourne shell). */
 	SH("sh"),
+	/** Sjs. */
+	SJS("sjs"),
+	/** Smarty (PHP template engine). */
+	SMARTY("smarty"),
 	/** Snippets. */
 	SNIPPETS("snippets"),
+	/** Soy template. */
+	SOY_TEMPLATE("soy_template"),
+	/** Space. */
+	SPACE("space"),
 	/** SQL. */
 	SQL("sql"),
 	/** Stylus. */
@@ -206,12 +238,16 @@ public enum AceEditorMode {
 	TWIG("twig"),
 	/** TypeScript. */
 	TYPESCRIPT("typescript"),
+	/** Vala. */
+	VALA("vala"),
 	/** VBScript. */
 	VBSCRIPT("vbscript"),
 	/** Velocity. */
 	VELOCITY("velocity"),
 	/** Verilog. */
 	VERILOG("verilog"),
+	/** VHDL. */
+	VHDL("vhdl"),
 	/** XML. */
 	XML("xml"),
 	/** XQuery. */
