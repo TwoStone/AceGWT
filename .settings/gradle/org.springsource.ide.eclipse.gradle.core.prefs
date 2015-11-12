@@ -1,0 +1,5 @@
+#org.springsource.ide.eclipse.gradle.core.preferences.GradleProjectPreferences
+#Thu Nov 12 14:34:06 CET 2015
+build.family.org.gradle.tooling.model.eclipse.HierarchicalEclipseProject=;AceGWT;AceGWTDemo;
+org.springsource.ide.eclipse.gradle.linkedresources=
+org.springsource.ide.eclipse.gradle.rootprojectloc=

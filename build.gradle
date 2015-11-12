@@ -1,0 +1,9 @@
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'eclipse'
+
+    ext {
+        gwt_version = '2.7.0'
+    }    
+}
+
