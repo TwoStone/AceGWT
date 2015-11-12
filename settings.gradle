@@ -1,2 +1,4 @@
 include 'AceGWT',
-		'AceGWTDemo'
+		'Demos:GWTDemo',
+		'Demos:GXT2Demo',
+		'Demos:GXT3Demo'

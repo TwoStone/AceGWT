@@ -7,3 +7,14 @@ subprojects {
     }    
 }
 
+task runGwtDemo(type:GradleBuild) {
+    tasks += ':Demos:GWTDemo:jettyDraftWar'
+}
+
+task runGxt2Demo(type:GradleBuild) {
+    tasks += ':Demos:GXT2Demo:jettyDraftWar'
+}
+
+task runGxt3Demo(type:GradleBuild) {
+    tasks += ':Demos:GXT3Demo:jettyDraftWar'
+}
