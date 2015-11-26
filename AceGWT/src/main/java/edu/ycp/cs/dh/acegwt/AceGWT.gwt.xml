@@ -2,9 +2,6 @@
 <module>
   <inherits name='com.google.gwt.user.User'/>
   
-  <!-- Including main ace script -->
-  <script src="ace/ace.js"/>
-  
   <source path='client'/>
   <source path='shared'/>
 </module>

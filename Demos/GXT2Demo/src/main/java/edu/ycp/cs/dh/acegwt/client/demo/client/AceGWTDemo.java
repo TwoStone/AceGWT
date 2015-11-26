@@ -1,5 +1,6 @@
 package edu.ycp.cs.dh.acegwt.client.demo.client;
 
+import com.extjs.gxt.ui.client.widget.ContentPanel;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.core.client.JavaScriptObject;
@@ -13,28 +14,7 @@ import com.google.gwt.user.client.ui.InlineLabel;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.VerticalPanel;
-import com.sencha.gxt.widget.core.client.ContentPanel;
-
-import edu.ycp.cs.dh.acegwt.client.ace.AceAnnotationType;
-import edu.ycp.cs.dh.acegwt.client.ace.AceCommandDescription;
-import edu.ycp.cs.dh.acegwt.client.ace.AceCompletion;
-import edu.ycp.cs.dh.acegwt.client.ace.AceCompletionCallback;
-import edu.ycp.cs.dh.acegwt.client.ace.AceCompletionProvider;
-import edu.ycp.cs.dh.acegwt.client.ace.AceCompletionSnippet;
-import edu.ycp.cs.dh.acegwt.client.ace.AceCompletionSnippetSegment;
-import edu.ycp.cs.dh.acegwt.client.ace.AceCompletionSnippetSegmentLiteral;
-import edu.ycp.cs.dh.acegwt.client.ace.AceCompletionSnippetSegmentTabstopItem;
-import edu.ycp.cs.dh.acegwt.client.ace.AceCompletionValue;
-import edu.ycp.cs.dh.acegwt.client.ace.AceDefaultCommandLine;
-import edu.ycp.cs.dh.acegwt.client.ace.AceEditor;
-import edu.ycp.cs.dh.acegwt.client.ace.AceEditorCallback;
-import edu.ycp.cs.dh.acegwt.client.ace.AceEditorCursorPosition;
-import edu.ycp.cs.dh.acegwt.client.ace.AceEditorMode;
-import edu.ycp.cs.dh.acegwt.client.ace.AceEditorTheme;
-import edu.ycp.cs.dh.acegwt.client.ace.AceMarkerType;
-import edu.ycp.cs.dh.acegwt.client.ace.AceRange;
-import edu.ycp.cs.dh.acegwt.client.ace.AceSelection;
-import edu.ycp.cs.dh.acegwt.client.ace.AceSelectionListener;
+import edu.ycp.cs.dh.acegwt.client.ace.*;
 
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
@@ -371,10 +351,10 @@ public class AceGWTDemo implements EntryPoint {
 		});
 		buttonPanel2.add(flipFocus2);
 
-		final ContentPanel panel = new ContentPanel();
+		final com.extjs.gxt.ui.client.widget.ContentPanel panel = new ContentPanel();
 		panel.add(mainPanel);
 
-		final com.sencha.gxt.widget.core.client.Window w = new com.sencha.gxt.widget.core.client.Window();
+		final com.extjs.gxt.ui.client.widget.Window w = new com.extjs.gxt.ui.client.widget.Window();
 		w.setModal(true);
 		w.add(panel);
 		w.show();

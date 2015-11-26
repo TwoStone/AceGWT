@@ -18,11 +18,11 @@ repositories {
 
 dependencies {
     compile project(':AceGWT')
-    compile 'com.extjs:gxt:2.3.1a-gwt22'
+    compile 'com.extjs:gxt:2.3.0-gwt22'
 }
 
 gwt {
-    gwtVersion=gwt_version
+    gwtVersion='2.5.1'
 
     modules 'edu.ycp.cs.dh.acegwt.client.demo.AceGWTDemo'
 

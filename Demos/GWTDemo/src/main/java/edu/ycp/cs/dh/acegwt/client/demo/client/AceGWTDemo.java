@@ -13,7 +13,7 @@ import com.google.gwt.user.client.ui.InlineLabel;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.VerticalPanel;
-import com.sencha.gxt.widget.core.client.ContentPanel;
+import com.google.gwt.user.client.ui.RootPanel;
 
 import edu.ycp.cs.dh.acegwt.client.ace.AceAnnotationType;
 import edu.ycp.cs.dh.acegwt.client.ace.AceCommandDescription;
@@ -371,13 +371,7 @@ public class AceGWTDemo implements EntryPoint {
 		});
 		buttonPanel2.add(flipFocus2);
 
-		final ContentPanel panel = new ContentPanel();
-		panel.add(mainPanel);
-
-		final com.sencha.gxt.widget.core.client.Window w = new com.sencha.gxt.widget.core.client.Window();
-		w.setModal(true);
-		w.add(panel);
-		w.show();
+		RootPanel.get().add(mainPanel);
 	}
 
 	private void updateEditor1CursorPosition() {
