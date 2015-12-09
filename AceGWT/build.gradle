@@ -10,6 +10,8 @@ buildscript {
 apply plugin:'java'
 apply plugin:'gwt-base'
 
+version = '1.6.0-SNAPSHOT'
+
 repositories { 
     jcenter() 
     mavenCentral()
